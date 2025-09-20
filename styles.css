@@ -1,1 +1,50 @@
-/* your code */
+body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 10px;
+      color: #333;
+    }
+
+    thead {
+      background: #0077cc;
+      color: white;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f2f8ff;
+    }
+
+    tbody tr:hover {
+      background: #e0f0ff;
+      cursor: pointer;
+    }
+
+    th {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
